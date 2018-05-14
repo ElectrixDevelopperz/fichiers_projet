@@ -1,0 +1,44 @@
+body
+{
+	background-color : grey;
+}	
+
+h2
+{
+	margin-top : 15px;
+}
+
+#img-ow
+{
+	background-image : url("ow.jpg") ;
+	background-repeat : no-repeat;
+	height : 135px;
+	width : 300px; 
+	text-align : center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#img-r6s
+{
+	background-image : url("r6s.jpg") ;
+	background-repeat : no-repeat;
+	height : 135px;
+	width : 300px; 
+	text-align : center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#img-ftn
+{
+	background-image : url("ftn.jpg"); 
+	background-repeat : no-repeat;
+	height : 135px;
+	width : 300px; 
+	text-align : center;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
