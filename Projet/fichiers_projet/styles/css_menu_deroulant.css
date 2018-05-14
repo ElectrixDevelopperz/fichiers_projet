@@ -9,7 +9,6 @@ nav
 {
 	border : solid green 3px;
 	margin-top : 0px;
-	position : fixed;
 	width :100%;
 	background-color: #424558;
 }
@@ -38,11 +37,6 @@ nav li
 	list-style-type: none;
 }
 
-.submenu
-{
-	display: none;
-}
-
 nav a
 {
 	text-decoration : none;
@@ -59,28 +53,7 @@ nav > ul > li:hover a
 {
 	padding: 15px 30px 20px 30px;
 }
-nav li:hover .submenu
-{
-	display : inline-block;
-	position: absolute;
-	top: 100%;
-	padding: 0px;
-	z-index: 1000;
-	left: 0px;	
-}
 
-.submenu li
-{
-	border-bottom : 1px solid #CCC;	
-}
-
-.submenu li a
-{
-	font-size : 13px;
-	color : #222538;
-	padding: 15px 30px;
-	width: 270px;
-}
 
 .menu-accueil:hover
 {
@@ -103,42 +76,5 @@ nav li:hover .submenu
 	background-color : RGBa(220, 220, 220, 0.15);
 }
 
-.menu-accueil .submenu
-{
-	background-color : RGB(230, 100, 40);
-}
-.menu-recherche .submenu
-{
-	background-color : RGB(000, 160, 240);
-}
-.menu-match .submenu
-{
-	background-color : RGB(250, 215, 100);
-}
-.menu-orga .submenu
-{
-	background-color : RGB(250, 215, 100);
-}
-.submenu li:hover a
-{
-	color : #EEE;
-	font-weight : bold; 
-}
-.menu-accueil .submenu li:hover
-{
-	background-color : RGB(210, 77, 60);
-}
-.menu-recherche .submenu li:hover
-{
-	 background-color : RGB(000, 115, 200);
-}
-.menu-match .submenu li:hover
-{
-	background-color : RGB(200, 165, 75);
-}
-.menu-orga .submenu li:hover
-{
-	background-color : RGB(200, 165, 75);
-}
 
 
